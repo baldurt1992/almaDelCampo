@@ -130,11 +130,11 @@ a:hover {
 	background: url(images/img10.jpg) no-repeat;
 	text-transform: lowercase;
 	text-align: right;
-	letter-spacing: -1px;
 	font-size: 22px;
 	font-weight: normal;
 	font-style: italic;
 	color: #FFFFFF;
+	border-radius: 3%;
 }
 
 /* Content */
