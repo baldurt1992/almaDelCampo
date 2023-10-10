@@ -207,3 +207,23 @@ a:hover {
 	letter-spacing: -1px;
 	font-size: 24px;
 }
+
+.card {
+	height: 35px;
+	width: 35px;
+	padding: 10px;
+	margin: 20px;
+	text-align: center; /* Alinea el contenido al centro de las tarjetas */
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Opcional: Agrega una sombra a las tarjetas */
+	top: -40px;
+  }
+  
+  .s1 {
+	display: flex;
+	justify-content: center;
+	margin-right: 10px; /* Agrega margen a la derecha de las tarjetas */
+  }
+
+  .card-text{
+	font-size: 13px;
+  }
