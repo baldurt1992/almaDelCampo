@@ -112,10 +112,10 @@ a:hover {
 
 #header h1 {
 	float: left;
-	width: 104px;
+	width: 204px;
 	height: 110px;
-	padding: 104px 100px 0 20px;
-	background: url(images/img04.jpg) no-repeat;
+	padding: 200px 200px 0 20px;
+	background: url(images/logo3.jpg) no-repeat;
 	line-height: 32px;
 	font-size: 30px;
 	font-style: italic;
