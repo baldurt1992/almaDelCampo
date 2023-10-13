@@ -13,7 +13,7 @@ body {
 	color: #797C7A;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
 	color: #715558;
@@ -63,7 +63,7 @@ a:hover {
 /* Menu */
 
 #menu {
-	width: 600px;
+	width: 750px;
 	height: 60px;
 	margin: 0 auto;
 	background: url(images/img03.jpg) no-repeat right top;
@@ -78,18 +78,19 @@ a:hover {
 #menu li {
 	display: block;
 	float: left;
-	width: 150px;
-	padding: 0 0 0 4px;
+	width: 148px;
+	height: 30px;
+	padding: 0 0 0 2px;
 	background: url(images/img02.gif) no-repeat;
 }
 
 #menu a {
 	display: block;
-	width: 130px;
+	width: 108px;
 	height: 36px;
-	padding: 10px 0px 0 20px;
+	padding: 8px 20px 0 50px;
 	background: url(images/img03.jpg) no-repeat;
-	letter-spacing: -1px;
+	letter-spacing: -2px;
 	text-align: center;
 	font-size: 1.6em;
 	color: #FFFFFF;
@@ -106,19 +107,20 @@ a:hover {
 #header {
 	width: 754px;
 	height: 247px;
-	margin: 0 auto;
+ 	margin: 0 auto;
 	padding: 13px 0 0 0;
 }
 
-#header h1 {
-	float: left;
-	width: 204px;
+#header {
+/* 	float: left;
+	width: 104px;
 	height: 110px;
-	padding: 200px 200px 0 20px;
-	line-height: 32px;
-	font-size: 30px;
+	padding: 40px 200px 0 200px;
+	/* background: url(images/img04.jpg) no-repeat; */
+/* 	line-height: 32px;
+ */	font-size: 30px;
 	font-style: italic;
-	color: #715558;
+	color: #6d533a; 
 }
 
 #header h2 {
@@ -126,13 +128,14 @@ a:hover {
 	width: 494px;
 	height: 34px;
 	padding: 180px 20px 0 0;
+	/* background: url(images/img05.jpg) no-repeat; */
 	text-transform: lowercase;
 	text-align: right;
+	letter-spacing: -1px;
 	font-size: 22px;
 	font-weight: normal;
 	font-style: italic;
 	color: #FFFFFF;
-	border-radius: 3%;
 }
 
 /* Content */
@@ -155,7 +158,7 @@ a:hover {
 
 #posts .story {
 	padding: 15px 20px 0 20px;
-	background: url(images/img08.jpg) repeat-x;
+	/* background: url(images/img08.jpg) repeat-x; */
 }
 
 #posts .meta {
@@ -172,7 +175,40 @@ a:hover {
 #posts ul {
 }
 
-#posts ul li {
+
+/* Links */
+
+#links {
+	float: left;
+	width: 220px;
+}
+
+#links ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#links li ul {
+	padding: 15px 20px 30px 20px;
+	background: url(images/img08.jpg) repeat-x;
+}
+
+#links li li {
+	padding: 3px 0;
+	background: url(images/img06.gif) repeat-x left bottom;
+}
+
+#links li a {
+	background: none;
+}
+
+#links li i {
+	font-size: smaller;
+}
+
+#links h2 {
+	font-size: 1.3em;
 }
 
 /* Footer */
@@ -206,22 +242,34 @@ a:hover {
 	font-size: 24px;
 }
 
-.card {
-	height: 35px;
-	width: 35px;
-	padding: 10px;
-	margin: 20px;
-	text-align: center; /* Alinea el contenido al centro de las tarjetas */
-	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Opcional: Agrega una sombra a las tarjetas */
-	top: -40px;
-  }
-  
-  .s1 {
-	display: flex;
-	justify-content: center;
-	margin-right: 10px; /* Agrega margen a la derecha de las tarjetas */
+.carousel{
+    width: 500px;
+    height: 500px;
+    margin: 0;
+	padding: 0;
+	color: #715558;
+    left: -650px;
+    top: -160px;
+}
+
+.firstletter::first-letter{
+    font-weight: bold;
+    color: black;
+    font-size: 30px;
+}
+
+.titulo-h2 {
+    margin-left: -20px; 
   }
 
-  .card-text{
-	font-size: 13px;
-  }
+.tituloprincipal{
+    left: -300px;
+}
+
+.text-header{
+    top: -100px;
+    font-size: 70px;
+    left: -100px;
+    padding: 35px;
+}
+  
