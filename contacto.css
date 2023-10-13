@@ -33,16 +33,6 @@ h3 {
 	font-weight: bold;
 }
 
-p, blockquote, ul, ol {
-	margin-top: 0;
-}
-
-blockquote {
-	padding: 0 0 0 40px;
-	background: url(images/img09.gif) no-repeat;
-	line-height: 1.6em;
-}
-
 a {
 	background: url(images/img06.gif) repeat-x left bottom;
 	text-decoration: none;
@@ -96,12 +86,6 @@ a:hover {
 	color: #FFFFFF;
 }
 
-#menu a:hover {
-}
-
-#menu .active a {
-}
-
 /* Header */
 
 #header {
@@ -147,34 +131,25 @@ a:hover {
 
 /* Posts */
 
-#posts {
+/* #posts {
 	float: right;
 	width: 510px;
-}
+} */
 
-#posts .post {
+/* #posts .post {
 	padding-bottom: 30px;
-}
+} */
 
-#posts .story {
+/* #posts .story {
 	padding: 15px 20px 0 20px;
-	/* background: url(images/img08.jpg) repeat-x; */
-}
+	background: url(images/img08.jpg) repeat-x;
+} */
 
-#posts .meta {
-	padding: 5px 0 0 20px;
-	background: url(images/img06.gif) repeat-x;
-}
-
-#posts .meta p {
+/* .meta p {
 	margin: 0;
 	line-height: normal;
 	font-size: smaller;
-}
-
-#posts ul {
-}
-
+} */
 
 /* Links */
 
@@ -235,13 +210,6 @@ a:hover {
 	font-size: 12px;
 }
 
-#brand {
-	margin: -35px auto 0 auto;
-	padding: 10px 0 0 0;
-	letter-spacing: -1px;
-	font-size: 24px;
-}
-
 .carousel{
     width: 500px;
     height: 500px;
@@ -250,12 +218,6 @@ a:hover {
 	color: #715558;
     left: -650px;
     top: -160px;
-}
-
-.firstletter::first-letter{
-    font-weight: bold;
-    color: black;
-    font-size: 30px;
 }
 
 .titulo-h2 {

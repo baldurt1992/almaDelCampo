@@ -8,29 +8,50 @@
 </head>
 <body>
 <div id="wrapper">
-  <div id="menu">
-    <ul>
-      <li><a href="#" accesskey="1">Inicio</a></li>
-      <li class="active"><a href="#" accesskey="2">tienda</a></li>
-      <li><a href="#" accesskey="4">Sobre nosotros</a></li>
-      <li><a href="#" accesskey="5">Contacto</a></li>
-    </ul>
-  </div>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Menú</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">TIenda</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Más opciones
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Sobre nosotros</a></li>
+              <li><a class="dropdown-item" href="#">Contacto</a></li>
+<!--               <li><hr class="dropdown-divider"></li>
+ -->            </ul>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li> -->
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
   <!-- end #menu -->
   <div id="header">
     <h1 class="text-header">Alma del Campo Café</h1>
     <!-- <h1>The Coffee Shop</h1> -->
      <div id="slideCarrousell" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/img05.jpg" class="d-block w-100" alt="img5">
-        </div>
-        <div class="carousel-item">
-          <img src="images/img10.jpg" class="d-block w-100" alt="img10">
-        </div>
-        <div class="carousel-item">
-          <img src="images/Img12.jpg" class="d-block w-100" alt="img12">
-        </div>
+        
+       
+      
         
       </div>
     </div>
@@ -39,31 +60,57 @@
   <div id="content">
     <div id="posts">
       <div class="post">
-        <h2 class="title">Bienvenidos a Alma del campo café</h2>
-        <div class="story">
-          <p class="firstletter">Alma del campo café se caracteriza por sus notas únicas debido al suelo donde es sembrado y a los métodos de fermentación que usamos. <br> En este sitio podrás encontar nuestros productos y diferentes métodos para hacer de tu café una experiencia única.<em><strong></strong></em></p>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+          </div>
+          <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Check me out
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </div>
+        </form>
         </div>
         <div class="meta">
         </div>
       </div>
       <div class="post">
-        <h2 class="title">Tipos de cafés</h2>
+     
         <div class="story">
-          <ul>
-            <li>Red Honey</li>
-            <li>Amargo</li>
-            <li>Sin azúcar</li>
-            <li>Sin azúcar</li>
-            <li>Sin azúcar</li>
-          </ul>
-        <h2 class="titulo-h2">Tipos de métodos</h2>
-        <br>
-          <ul>
-            <li>List item number one</li>
-            <li>List item number two</li>
-            <li>List item number three</li>
-          </ul>
-         
         </div>
       </div>
     </div>
