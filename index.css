@@ -58,33 +58,34 @@ a:hover {
 
 #wrapper {
 	background: #FFFFFF url(images/img02.jpg) repeat-x left top;
+
 }
 
 /* Menu */
 
 #menu {
-	width: 750px;
-	height: 60px;
-	margin: 0 auto;
+	width: 900px;
+	height: 80px;
+	margin: 30px;
 	background: url(images/img03.jpg) no-repeat right top;
 }
 
 #menu ul {
-	margin: 0;
-	padding: 0;
+	margin: 5;
+	padding: 2px;
 	list-style: none;
 }
 
 #menu li {
 	display: block;
 	float: left;
-	width: 148px;
-	height: 30px;
-	padding: 0 0 0 2px;
+	width: 170px;
+	height: 100px;
+	padding: 40px 20px 0 2px;
 	background: url(images/img02.gif) no-repeat;
 }
 
-#menu a {
+/* #menu a {
 	display: block;
 	width: 108px;
 	height: 36px;
@@ -93,7 +94,7 @@ a:hover {
 	letter-spacing: -2px;
 	text-align: center;
 	font-size: 1.6em;
-	color: #FFFFFF;
+	color: #FFFFFF; */
 }
 
 #menu a:hover {
@@ -272,4 +273,4 @@ a:hover {
     left: -100px;
     padding: 35px;
 }
-  
+
