@@ -7,13 +7,14 @@ Released for free under a Creative Commons Attribution 2.5 License
 body {
 	margin: 0;
 	padding: 0;
-	background: #FFFFFF url(images/img01.jpg);
+	/* 	background: #FFFFFF url(images/img01.jpg);
+ */
 	font: normal small Georgia, "Times New Roman", Times, serif;
 	line-height: 1.8em;
 	color: #797C7A;
 }
 
-h2,
+/* h2,
 h3,
 h4,
 h5,
@@ -21,51 +22,31 @@ h6 {
 	margin: 0;
 	padding: 0;
 	color: #715558;
-}
+} */
 
-h2 {
-	padding-left: 20px;
-	background: url(images/img07.gif) no-repeat left center;
-	font-size: 22px;
-}
+/* h2 {
+	padding-left: 20px; */
+/* 	background: url(images/img07.gif) no-repeat left center;
+ */
+/* 	font-size: 22px;
+} */
 
-h3 {
+/* h3 {
 	margin-bottom: 1em;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	font-size: .9em;
 	font-weight: bold;
-}
+} */
 
-p,
-blockquote,
-ul,
-ol {
-	margin-top: 0;
-}
 
-blockquote {
-	padding: 0 0 0 40px;
-	background: url(images/img09.gif) no-repeat;
-	line-height: 1.6em;
-}
 
-a {
-	background: url(images/img06.gif) repeat-x left bottom;
-	text-decoration: none;
-	color: #5A5C53;
-}
 
-a:hover {
-	background: none;
-	text-decoration: underline;
-}
+
 
 /* Wrapper */
 
-#wrapper {
-	background: #FFFFFF url(images/img02.jpg) repeat-x left top;
-}
+
 
 /* Menu */
 
@@ -73,7 +54,8 @@ a:hover {
 	width: 750px;
 	height: 60px;
 	margin: 0 auto;
-	background: url(images/img03.jpg) no-repeat right top;
+	/* 	background: url(images/img03.jpg) no-repeat right top;
+ */
 }
 
 #menu ul {
@@ -88,7 +70,8 @@ a:hover {
 	width: 148px;
 	height: 30px;
 	padding: 0 0 0 2px;
-	background: url(images/img02.gif) no-repeat;
+	/* 	background: url(images/img02.gif) no-repeat;
+ */
 }
 
 #menu a {
@@ -96,7 +79,8 @@ a:hover {
 	width: 108px;
 	height: 36px;
 	padding: 8px 20px 0 50px;
-	background: url(images/img03.jpg) no-repeat;
+	/* 	background: url(images/img03.jpg) no-repeat;
+ */
 	letter-spacing: -2px;
 	text-align: center;
 	font-size: 1.6em;
@@ -153,7 +137,7 @@ a:hover {
 
 /* Posts */
 
-#posts {
+/* #posts {
 	float: right;
 	width: 510px;
 }
@@ -169,7 +153,8 @@ a:hover {
 
 #posts .meta {
 	padding: 5px 0 0 20px;
-	background: url(images/img06.gif) repeat-x;
+	/* 	background: url(images/img06.gif) repeat-x;
+ */
 }
 
 #posts .meta p {
@@ -180,7 +165,7 @@ a:hover {
 
 #posts ul {}
 
-
+*/
 /* Links */
 
 #links {
@@ -196,12 +181,14 @@ a:hover {
 
 #links li ul {
 	padding: 15px 20px 30px 20px;
-	background: url(images/img08.jpg) repeat-x;
+	/* 	background: url(images/img08.jpg) repeat-x;
+ */
 }
 
 #links li li {
 	padding: 3px 0;
-	background: url(images/img06.gif) repeat-x left bottom;
+	/* 	background: url(images/img06.gif) repeat-x left bottom;
+ */
 }
 
 #links li a {
@@ -220,12 +207,13 @@ a:hover {
 
 #footer {
 	padding: 40px 0 60px 0;
-	background: url(images/img07.jpg) repeat-x;
+	/* 	background: url(images/img07.jpg) repeat-x;
+ */
 }
 
 #footer p {
 	width: 750px;
-	color: #FFFFFF;
+	color: #030303;
 }
 
 #footer a {
@@ -247,25 +235,10 @@ a:hover {
 	font-size: 24px;
 }
 
-.carousel {
-	width: 500px;
-	height: 500px;
-	margin: 0;
-	padding: 0;
-	color: #715558;
-	left: -650px;
-	top: -160px;
-}
 
-.firstletter::first-letter {
-	font-weight: bold;
-	color: black;
-	font-size: 30px;
-}
 
-.titulo-h2 {
-	margin-left: -20px;
-}
+
+
 
 .tituloprincipal {
 	left: -300px;
@@ -278,4 +251,31 @@ a:hover {
 	padding: 35px;
 }
 
-.tienda {}
+.tarjetas1 {
+	margin: 0 auto;
+	/* Esto centra horizontalmente el contenedor */
+	display: flex;
+	justify-content: center;
+	/* Esto centra horizontalmente los elementos internos */
+	align-items: center;
+	/* Esto centra verticalmente los elementos internos si es necesario */
+	width: 900px;
+	height: 250px;
+}
+
+.card {
+	margin-right: 20px;
+	/* Ajusta este valor según tu preferencia para separar las tarjetas horizontalmente */
+	margin-bottom: 20px;
+	/* Ajusta este valor según tu preferencia para separar las tarjetas verticalmente */
+}
+
+.tarjetas1 .card {
+	/* Establece el ancho deseado para todas las tarjetas */
+	height: 35rem;
+	/* Establece la altura deseada para todas las tarjetas */
+	margin-right: 20px;
+	/* Ajusta este valor según tu preferencia para separar las tarjetas horizontalmente */
+	margin-bottom: 20px;
+	/* Ajusta este valor según tu preferencia para separar las tarjetas verticalmente */
+}
