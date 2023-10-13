@@ -13,7 +13,11 @@ body {
 	color: #797C7A;
 }
 
-h2, h3, h4, h5, h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
 	margin: 0;
 	padding: 0;
 	color: #715558;
@@ -33,7 +37,10 @@ h3 {
 	font-weight: bold;
 }
 
-p, blockquote, ul, ol {
+p,
+blockquote,
+ul,
+ol {
 	margin-top: 0;
 }
 
@@ -96,31 +103,30 @@ a:hover {
 	color: #FFFFFF;
 }
 
-#menu a:hover {
-}
+#menu a:hover {}
 
-#menu .active a {
-}
+#menu .active a {}
 
 /* Header */
 
 #header {
 	width: 754px;
 	height: 247px;
- 	margin: 0 auto;
+	margin: 0 auto;
 	padding: 13px 0 0 0;
 }
 
 #header {
-/* 	float: left;
+	/* 	float: left;
 	width: 104px;
 	height: 110px;
 	padding: 40px 200px 0 200px;
 	/* background: url(images/img04.jpg) no-repeat; */
-/* 	line-height: 32px;
- */	font-size: 30px;
+	/* 	line-height: 32px;
+ */
+	font-size: 30px;
 	font-style: italic;
-	color: #6d533a; 
+	color: #6d533a;
 }
 
 #header h2 {
@@ -172,8 +178,7 @@ a:hover {
 	font-size: smaller;
 }
 
-#posts ul {
-}
+#posts ul {}
 
 
 /* Links */
@@ -242,34 +247,35 @@ a:hover {
 	font-size: 24px;
 }
 
-.carousel{
-    width: 500px;
-    height: 500px;
-    margin: 0;
+.carousel {
+	width: 500px;
+	height: 500px;
+	margin: 0;
 	padding: 0;
 	color: #715558;
-    left: -650px;
-    top: -160px;
+	left: -650px;
+	top: -160px;
 }
 
-.firstletter::first-letter{
-    font-weight: bold;
-    color: black;
-    font-size: 30px;
+.firstletter::first-letter {
+	font-weight: bold;
+	color: black;
+	font-size: 30px;
 }
 
 .titulo-h2 {
-    margin-left: -20px; 
-  }
-
-.tituloprincipal{
-    left: -300px;
+	margin-left: -20px;
 }
 
-.text-header{
-    top: -100px;
-    font-size: 70px;
-    left: -100px;
-    padding: 35px;
+.tituloprincipal {
+	left: -300px;
 }
-  
+
+.text-header {
+	top: -100px;
+	font-size: 70px;
+	left: -100px;
+	padding: 35px;
+}
+
+.tienda {}
