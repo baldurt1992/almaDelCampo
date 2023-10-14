@@ -272,10 +272,32 @@ h6 {
 
 .tarjetas1 .card {
 	/* Establece el ancho deseado para todas las tarjetas */
-	height: 35rem;
+	height: 30rem;
 	/* Establece la altura deseada para todas las tarjetas */
-	margin-right: 20px;
+	margin-right: 130px;
 	/* Ajusta este valor según tu preferencia para separar las tarjetas horizontalmente */
-	margin-bottom: 20px;
+	margin-bottom: 60px;
 	/* Ajusta este valor según tu preferencia para separar las tarjetas verticalmente */
+	max-width: 500%;
+	
+}
+.tarjetas2 {
+	margin: 15 auto;
+	/* Esto centra horizontalmente el contenedor */
+	display: flex;
+	justify-content: center;
+	/* Esto centra horizontalmente los elementos internos */
+	align-items: center;
+	/* Esto centra verticalmente los elementos internos si es necesario */
+	width: 780px;
+	height: 850px;
+}
+
+
+
+.tarjetas2 .card {
+height: 30rem;
+margin: 40px; 
+margin-bottom: 140px; 
+max-width:700px;
 }
