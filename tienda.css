@@ -206,3 +206,12 @@ body {
 .content-titlep {
 	font-size: 23px;
 }
+
+.line-menu {
+	background-color: antiquewhite;
+	height: 0.1px;
+	position: relative;
+	z-index: 2;
+	width: 500px;
+	left: 68px;
+}
