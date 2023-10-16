@@ -1,124 +1,24 @@
-/*
-Design by Free CSS Templates
-http://www.freecsstemplates.org
-Released for free under a Creative Commons Attribution 2.5 License
-*/
-
 body {
 	margin: 0;
 	padding: 0;
-	/* 	background: #FFFFFF url(images/img01.jpg);
- */
-	font: normal small Georgia, "Times New Roman", Times, serif;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	line-height: 1.8em;
 	color: #797C7A;
+	width: 100vh;
+	height: 100vh;
+	overflow-x: hidden;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
-
-/* h2,
-h3,
-h4,
-h5,
-h6 {
-	margin: 0;
-	padding: 0;
-	color: #715558;
-} */
-
-/* h2 {
-	padding-left: 20px; */
-/* 	background: url(images/img07.gif) no-repeat left center;
- */
-/* 	font-size: 22px;
-} */
-
-/* h3 {
-	margin-bottom: 1em;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	font-size: .9em;
-	font-weight: bold;
-} */
-
-
-
-
-
-
-/* Wrapper */
-
-
-
-/* Menu */
-
-#menu {
-	width: 750px;
-	height: 60px;
-	margin: 0 auto;
-	/* 	background: url(images/img03.jpg) no-repeat right top;
- */
-}
-
-#menu ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-#menu li {
-	display: block;
-	float: left;
-	width: 148px;
-	height: 30px;
-	padding: 0 0 0 2px;
-	/* 	background: url(images/img02.gif) no-repeat;
- */
-}
-
-#menu a {
-	display: block;
-	width: 108px;
-	height: 36px;
-	padding: 8px 20px 0 50px;
-	/* 	background: url(images/img03.jpg) no-repeat;
- */
-	letter-spacing: -2px;
-	text-align: center;
-	font-size: 1.6em;
-	color: #FFFFFF;
-}
-
-#menu a:hover {}
-
-#menu .active a {}
 
 /* Header */
-
-#header {
-	width: 754px;
-	height: 247px;
-	margin: 0 auto;
-	padding: 13px 0 0 0;
-}
-
-#header {
-	/* 	float: left;
-	width: 104px;
-	height: 110px;
-	padding: 40px 200px 0 200px;
-	/* background: url(images/img04.jpg) no-repeat; */
-	/* 	line-height: 32px;
- */
-	font-size: 30px;
-	font-style: italic;
-	color: #6d533a;
-}
 
 #header h2 {
 	float: right;
 	width: 494px;
 	height: 34px;
 	padding: 180px 20px 0 0;
-	/* background: url(images/img05.jpg) no-repeat; */
 	text-transform: lowercase;
 	text-align: right;
 	letter-spacing: -1px;
@@ -128,171 +28,181 @@ h6 {
 	color: #FFFFFF;
 }
 
-/* Content */
+#header {
+	width: 660px;
+	height: 312px;
+	background-color: #5e452f;
+	background-image: url('images/logoalma.png');
+	background-repeat: no-repeat;
+	background-position: 50% center;
+	z-index: 1;
 
-#content {
-	width: 750px;
-	margin: 0 auto;
 }
 
-/* Posts */
-
-/* #posts {
-	float: right;
-	width: 510px;
+#header-filler {
+	background-color: #5e452f;
+	/* Elige el color que desees */
+	height: 80px;
+	z-index: 1;
 }
 
-#posts .post {
-	padding-bottom: 30px;
+.navbar {
+	background-color: #5e452f;
+	left: -80px;
 }
 
-#posts .story {
-	padding: 15px 20px 0 20px;
-	/* background: url(images/img08.jpg) repeat-x; 
-}*/
-
-#posts .meta {
-	padding: 5px 0 0 20px;
-	/* 	background: url(images/img06.gif) repeat-x;
- */
+.navbar-brand {
+	color: #5e452f;
+	justify-content: center;
 }
 
-#posts .meta p {
-	margin: 0;
-	line-height: normal;
-	font-size: smaller;
+.navbar-nav .nav-link {
+	color: #ffffff;
 }
 
-#posts ul {}
-
-*/
-/* Links */
-
-#links {
-	float: left;
-	width: 220px;
+.navbar-nav .nav-link:hover {
+	color: #ffffff;
+	font-size: 22px;
+	text-align: center;
 }
 
-#links ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+.navbar-nav .dropdown-menu .dropdown-item {
+	color: #5e452f;
 }
 
-#links li ul {
-	padding: 15px 20px 30px 20px;
-	/* 	background: url(images/img08.jpg) repeat-x;
- */
+.nav-item {
+	font-size: 20px;
+	justify-content: center;
+	color: wheat;
+	margin-left: 70px;
 }
 
-#links li li {
-	padding: 3px 0;
-	/* 	background: url(images/img06.gif) repeat-x left bottom;
- */
-}
-
-#links li a {
-	background: none;
-}
-
-#links li i {
-	font-size: smaller;
-}
-
-#links h2 {
-	font-size: 1.3em;
+.logoalma-link {
+	display: block;
+	width: 650px;
+	height: 312px;
+	z-index: 2;
 }
 
 /* Footer */
 
 #footer {
-	padding: 40px 0 60px 0;
-	/* 	background: url(images/img07.jpg) repeat-x;
- */
+	background-color: #5e452f;
+	width: 224.5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	margin-top: 60px;
+	min-height: 380px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #footer p {
-	width: 750px;
-	color: #030303;
-}
-
-#footer a {
-	background: none;
-	font-weight: bold;
-	color: #FFFFFF;
+	color: #ffffff;
+	text-align: center;
+	margin: 0;
 }
 
 #legal {
-	margin: 0 auto;
-	text-align: right;
-	font-size: 12px;
+	text-align: center;
+	font-size: 20px;
+	margin: 0;
 }
 
 #brand {
-	margin: -35px auto 0 auto;
-	padding: 10px 0 0 0;
-	letter-spacing: -1px;
 	font-size: 24px;
+	text-align: center;
+	margin: 0;
 }
 
-
-
-
-
-
-.tituloprincipal {
-	left: -300px;
-}
-
-.text-header {
-	top: -100px;
-	font-size: 70px;
-	left: -100px;
-	padding: 35px;
-}
-
-.tarjetas1 {
-	margin: 0 auto;
-	/* Esto centra horizontalmente el contenedor */
+.tarjetas1,
+.tarjetas2 {
 	display: flex;
 	justify-content: center;
-	/* Esto centra horizontalmente los elementos internos */
 	align-items: center;
-	/* Esto centra verticalmente los elementos internos si es necesario */
-	width: 900px;
-	height: 250px;
+	margin: 50px 0;
+	margin-bottom: 15px;
+	margin-left: 500px;
+	margin-right: -500px;
+	height: 2000px;
+	color: #5e452f;
 }
 
 .card {
-	margin-right: 20px;
-	/* Ajusta este valor según tu preferencia para separar las tarjetas horizontalmente */
-	margin-bottom: 20px;
-	/* Ajusta este valor según tu preferencia para separar las tarjetas verticalmente */
+	flex: 0 0 45%;
+	margin: 0 60px;
+	text-align: center;
+	color: #5e452f;
 }
 
-.tarjetas1 .card {
-	/* Establece el ancho deseado para todas las tarjetas */
-	height: 30rem;
-	/* Establece la altura deseada para todas las tarjetas */
-	margin-right: 130px;
-	/* Ajusta este valor según tu preferencia para separar las tarjetas horizontalmente */
-	margin-bottom: 60px;
-	/* Ajusta este valor según tu preferencia para separar las tarjetas verticalmente */
-	max-width: 500%;
-	
+.card img {
+	height: 200px;
+	object-fit: contain;
+	padding: 8px;
+	border-radius: 2px;
 }
-.tarjetas2 {
-	margin: 60px;
-	/* Esto centra horizontalmente el contenedor */
+
+.card-body {
+	height: 200px;
 	display: flex;
-	justify-content: center;
-	/* Esto centra horizontalmente los elementos internos */
-	align-items:center;
-	/* Esto centra verticalmente los elementos internos si es necesario */
-	width: 600px;
-	height: 800px;
-
-	
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
 }
 
+@media (max-width: 768px) {
 
+	.tarjetas1,
+	.tarjetas2 {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.card {
+		flex: 0 0 80%;
+		margin: 10px 0;
+	}
+}
+
+.btn {
+	width: 90px;
+}
+
+.image-tienda {
+	position: relative;
+	width: 150%;
+	height: 594%;
+	object-fit: cover;
+	margin-top: -388px;
+	margin-left: 615px;
+	z-index: -1;
+	image-rendering: optimizeSpeed;
+}
+
+.btn-primary {
+	background-color: #5e452f;
+	border: #5e452f;
+}
+
+.btn-primary:hover {
+	background-color: #978262;
+}
+
+.content-titlep {
+	text-align: center;
+	margin-top: 60px;
+	margin-left: 500px;
+	margin-right: -500px;
+	color: #5e452f;
+}
+
+.content-titlep h2 {
+	font-size: 50px;
+}
+
+.content-titlep {
+	font-size: 23px;
+}
